@@ -1,1 +1,1 @@
-echo "#Linux learning"
+"#Linux learning"
