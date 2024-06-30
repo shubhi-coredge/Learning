@@ -1,0 +1,31 @@
+#!/bin/zsh
+
+
+echo "This is an array lesson"
+
+#How to declare an arrray
+
+a=(ad 0.5 kjhg 87 fcvh singhal)
+
+echo "print all elements ${a[*]}"
+
+echo "print second index element - ${a[1]}"
+
+echo "print two elements of array starting from index 2 - ${a[*]:2:2}"
+
+echo "print length of an array - ${#a[*]}"
+
+#Add one element
+
+a+=(added element)
+
+echo "new array after addition is ${a[*]}"
+
+
+#key-value array
+
+declare -A b
+
+b=( [name]=shubhi [sirname]=singhal [digit]=8 )
+
+echo "key-value array is ${b[name]})"
